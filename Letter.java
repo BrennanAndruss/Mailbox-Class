@@ -10,21 +10,29 @@ public class Letter
     }
 
     /**
-     * 
-     * @return
+     * Gets the message of the letter
+     * @return message
      */
     public String getMessage()
     {
         return message;
     }
 
+    /**
+     * Gets the sender of the letter
+     * @return sender
+     */
     public String getSender()
     {
         return sender;
     }
 
+    /**
+     * Returns the letter
+     * @return message, sender
+     */
     public String toString()
     {
-        System.out.println()
+        return message + "\nFrom, " + sender;
     }
 }
